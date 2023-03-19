@@ -17,7 +17,7 @@ data[1] = st.number_input('ZN - proportion of residential land zoned for lots ov
 
 data[2] = st.number_input('INDUS - proportion of non-retail business acres per town.')
 
-data[3] = st.radio("CS - Charles River dummy variable (1 if tract bounds river; 0 otherwise", (1, 0))
+data[3] = st.radio("CS - Charles River dummy variable (1 if tract bounds river; 0 otherwise)", (1, 0))
 
 data[4] = st.number_input('NOX - nitric oxides concentration (parts per 10 million)')
 
